@@ -12,12 +12,12 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
-printf("is positive %d\n", n);
+printf("%d\n is positive", n);
 else if (n < 0)
-printf("is negative %d\n", n);
+printf("%d\n is negative", n);
 else
 {
-printf("is zero %d\n", n);
+printf("%d\n is zero", n);
 }
 return (0);
 }
