@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-void main () {
- char str[]; 
- strcpy (str, "Programming is like building a multilingual puzzle");
- puts(str);
+int main () {
+ puts ("Programming is like building a multilingual puzzle");
+ getchar();
  return 0;
-}
-gcc 
+} 
