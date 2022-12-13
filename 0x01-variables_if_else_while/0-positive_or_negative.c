@@ -11,21 +11,13 @@ int main(void)
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-for (int n = 0; n > 0; n < 0)
-{
 if (n > 0)
-scanf("%d", &n);
 printf("%d is positive");
-}
 else if (n < 0)
-{
-scanf("%d", &n);
-printf("%d n is negative");
-}
+printf("%d is negative");
 else
 {
-scanf("%d", &n);
-printf("%d n is zero");
+printf("%d is zero")
 }
 return (0);
 }
