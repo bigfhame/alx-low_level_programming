@@ -13,17 +13,17 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-scanf("%d" : n)
+scanf("%d", &n);
 printf("%d is positive");
 }
 else if (n < 0)
 {
-scanf("%d" : n)
+scanf("%d", &n);
 printf("%d n is negative");
 }
 else
 {
-scanf("%d" : n)
+scanf("%d", &n);
 printf("%d n is zero");
 }
 return (0);
