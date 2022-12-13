@@ -9,15 +9,15 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if(n > 0)
 {
-printf("'n' is POSITIVE");
+printf("%d is POSITIVE");
 }
 else if(n < 0)
 {
-printf("'n' is NEGATIVE");
+printf("%d is NEGATIVE");
 }
 else
 {
-printf("'n' is ZERO");
+printf("%d is ZERO");
 }
 return (0);
 }
