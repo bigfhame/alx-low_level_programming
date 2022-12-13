@@ -6,11 +6,6 @@
  */
 int main(void)
 {
-int integerType;
-float floatType;
-char charType;
-long int longintType;
-long long int longlongintType;
 printf("int is: %ld bytes\n", sizeof(int));
 printf("float is: %ld bytes\n", sizeof(float));
 printf("long int is: %ld bytes\n", sizeof(long int));
