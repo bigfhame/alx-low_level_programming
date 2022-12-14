@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include "main.h"
-int main(void)
-{char ch = '_putchar.c';
-putchar(ch);
-return (0);
-}
+#ifndef "main.h"
+#define "main.h"
+int _putchar(char);
+#endif
