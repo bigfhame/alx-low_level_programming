@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-printf("int is an %2d bytes\n", sizeof(int));
-printf("float is a %2d bytes\n", sizeof(float));
-printf("long int is a %2d bytes\n", sizeof(long int));
-printf("char is a %2d byte\n", sizeof(char))
-printf("long long int is a %2d bytes\n", sizeof(long long int));
+printf("Size of a char is: %lu bytes(s)\n", sizeof(char));
+printf("Size of an int is: %lu byte(s)\n", sizeof(int));
+printf("Size of a long int is: %lu byte(s)\n", sizeof(long int));
+printf("Size of a long long int is: %lu byte(s)\n", sizeof(long long int));
+printf("Size of a float is: %lu byte(s)\n", sizeof(float));
 return (0);
 }
 
