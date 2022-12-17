@@ -7,10 +7,14 @@
 */
 int main(void)
 {
-char lc, llc = 'f', luc = 'r';
-for (lc = 'a'; lc < 'e' && llc < 'q' && luc <= 'z'; lc++, llc++, luc++)
+char lc, llc, bj;
+char co = lc && llc && bj;
+for (lc = 'a'; lc < 'e'; lc++)
 {
-putchar("%d");
+for (llc = 'f'; llc < 'q'; llc++)
+{
+}
+putchar(co);
 }
 putchar('\n');
 return (0);
