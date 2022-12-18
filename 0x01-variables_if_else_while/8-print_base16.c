@@ -21,4 +21,4 @@ h++;
 }
 putchar('\n');
 return (0);
-}	
+}
