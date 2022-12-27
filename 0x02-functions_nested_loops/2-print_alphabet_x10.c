@@ -12,7 +12,7 @@ for (p = 'a'; p <= 'z'; p++)
 {
 for (p = 0; p < o; p++)
 {
-_putchar(p + '0');
+_putchar(p + 'a');
 }
 }
 _putchar('\n');
