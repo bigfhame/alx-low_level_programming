@@ -12,7 +12,8 @@ for (p = 'a'; p <= 'z'; p++)
 {
 while (p < o)
 {
-_putchar(p + '0');
+_putchar(p + 'a');
+p++;
 }
 }
 _putchar('\n');
