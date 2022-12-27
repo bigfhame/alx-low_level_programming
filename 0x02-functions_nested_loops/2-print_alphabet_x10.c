@@ -16,5 +16,4 @@ _putchar(p + '0');
 }
 }
 _putchar('\n');
-return (1);
 }
