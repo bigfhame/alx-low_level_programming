@@ -6,8 +6,8 @@
 */
 int _islower(int c)
 {
-int l;
-if ( _islower(l) )
+int c;
+if ( _islower(c) )
 {
 return (1);
 }
