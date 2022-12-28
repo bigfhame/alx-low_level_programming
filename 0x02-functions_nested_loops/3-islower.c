@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 *_islower - check for lowercase character
 *
@@ -6,13 +7,8 @@
 */
 int _islower(int c)
 {
-int c;
-if ( _islower(c) )
-{
-return (1);
-}
-else
-{
+int l;
+l = _islower('H');
+_putchar(l + '0');
 return (0);
-}
 }
