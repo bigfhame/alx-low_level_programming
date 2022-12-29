@@ -7,8 +7,10 @@
 */
 int _islower(int c)
 {
-int l;
-l = _islower('H');
-_putchar(l + '0');
+int low;
+low = _islower('A');
+_putchar(low + '0');
+low = _islower('z');
+_putchar(low + '0');
 return (0);
 }
