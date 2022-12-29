@@ -8,7 +8,7 @@
 int _islower(int c);
 int main(void)
 {
-c = 'H';
+int c = 'H';
 if (_islower(c))
 {
 	_putchar(1);
