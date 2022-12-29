@@ -1,14 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*main - check for lowercase character
-*
+*_islower - check for lowercase character
+*int c - character to be accessed
 *Return: always 0
 */
-int _islower(int c);
-int main(void)
+int _islower(int c)
 {
-int c = 'H';
+	int c = 'H';
 if (_islower(c))
 {
 	_putchar(1);
