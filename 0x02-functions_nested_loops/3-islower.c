@@ -8,7 +8,8 @@
 int _islower(int c)
 {
 char low;
-low = _islower(65);
+c = 'A';
+low = _islower(c);
 _putchar(low + '0');
 return (0);
 }
