@@ -1,17 +1,21 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*_islower - check for lowercase character
+*main - check for lowercase character
 *
 *Return: always 0
 */
-int _islower(int c)
+int _islower(int c);
+int main(void)
 {
-char low;
-low = _islower(c);
-low = _islower('o');
-_putchar(low);
-low = _islower(108);
-_putchar(low);
+c = 'H';
+if (_islower(c))
+{
+	_putchar(1);
+}
+else
+{
+_putchar(0);
+}
 return (0);
 }
