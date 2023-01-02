@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *main - Entry point
+ *print_last_digit - last digit
  *
  *Return: always 0
  */
-int main(void)
+int print_last_digit(int)
 {
 int n = 98;
 int l = n % 10;
