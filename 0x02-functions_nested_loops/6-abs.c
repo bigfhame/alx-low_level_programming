@@ -5,10 +5,26 @@
  *parameter - int
  *Return: always 0
  */
-int _abs(int c)
+int _abs(int)
 {
-int y;
-y = abs(c);
-printf("%d\n", y);
+printf("%d\n", abs(int));
+return (0);
+}
+/**
+ *main - Entry point
+ *
+ * Return: always (0)
+ */
+int main(void)
+{
+int r;
+r = _abs(-1);
+printf("%d\n", r);
+r = _abs(0);
+printf("%d\n", r);
+r = _abs(1);
+printf("%d\n", r);
+r = _abs(-98);
+printf("%d\n", r);
 return (0);
 }
