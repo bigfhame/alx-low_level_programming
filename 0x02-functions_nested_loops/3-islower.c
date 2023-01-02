@@ -3,19 +3,18 @@
 #include <ctype.h>
 /**
 *_islower - check for lowercase character
-*r
 *Return: always 0
 */
 int _islower(int c)
 {
-c = 65;
-if (islower(c))
+char p = 'a';
+if (p <= 'z')
 {
-return (1);
+	putchar(1);
 }
 else
 {
-return (0);
+putchar(0);
 }
 }
 /**
