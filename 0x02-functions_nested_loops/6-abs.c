@@ -5,8 +5,10 @@
  *parameter - int
  *Return: always 0
  */
-int _abs(int)
+int _abs(int c)
 {
-printf("%d\n", abs(int));
+int y;
+y = abs(c);
+printf("%d\n", y);
 return (0);
 }
