@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-int n;
+int n = 98;
 int l = n % 10;
 _putchar(l + '0');
 _putchar('\n');
