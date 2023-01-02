@@ -7,8 +7,8 @@
 */
 int _islower(int c)
 {
-char p = 'a';
-if (p <= 'z')
+c = 'a';
+if (c <= 'z')
 {
 	putchar(1);
 }
@@ -16,6 +16,7 @@ else
 {
 putchar(0);
 }
+return (c);
 }
 /**
  *main - Entry point
