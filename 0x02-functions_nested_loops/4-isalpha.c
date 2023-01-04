@@ -1,10 +1,17 @@
 #include <stdio.h>
 /**
  *_isalpha - checks for alphabet
- *
+ *@c: alphabet
  *Return: always 0
  */
 int _isalpha(int c)
 {
-	if (c =
+if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+{
+	return (1);
+}
+else
+{
+	return (0);
+}
 }
