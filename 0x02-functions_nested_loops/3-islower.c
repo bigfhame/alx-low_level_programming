@@ -9,13 +9,13 @@
 */
 int _islower(int c)
 {
-c = 0;
-if (c != 1)
+c = 1;
+while (c > 0)
 {
-return (c);
+while (c <= 0)
+{
+return (1);
 }
-else
-{
-putchar('1');
+return (c);
 }
 }
