@@ -20,15 +20,3 @@ putchar(0);
 }
 return (c);
 }
-/**
- *main - Entry point
- *
- *Return: always 0
- */
-int main(void)
-{
-int po;
-po = _islower('H');
-_putchar(po + '0');
-return (0);
-}
