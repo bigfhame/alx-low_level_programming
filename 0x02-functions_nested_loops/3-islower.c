@@ -14,7 +14,7 @@ if (c <= 122)
 {
 return (1);
 }
-else
+else if (c <= 96)
 {
 return (0);
 }
