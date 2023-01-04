@@ -1,14 +1,12 @@
 #include "main.h"
 /**
  *print_last_digit - last digit
- *
+ *@n: number to get last digit
  *Return: always 0
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-int n = 98;
+n = 98;
 int l = n % 10;
-_putchar(l + '0');
-_putchar('\n');
-return (0);
+return (l);
 }
