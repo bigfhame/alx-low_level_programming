@@ -9,13 +9,13 @@
 */
 int _islower(int c)
 {
-c = 1;
+c = 0;
 if (c < 1)
 {
 return (0);
 }
 else
 {
-return (c);
+return (1);
 }
 }
