@@ -10,13 +10,12 @@
 int _islower(int c)
 {
 c = 1;
-int v = 0;
-if (c > v)
+if (c > 0)
 {
 return (c);
 }
 else
 {
-return (v);
+return (0);
 }
 }
