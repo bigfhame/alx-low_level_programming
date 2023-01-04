@@ -9,13 +9,14 @@
 */
 int _islower(int c)
 {
-c = 97;
-if (c > 96 && c <= 122)
+c = 1;
+int v = 0;
+if (c > v)
 {
- _putchar('1');
+return (c);
 }
 else
 {
-_putchar('0');
+return (v);
 }
 }
