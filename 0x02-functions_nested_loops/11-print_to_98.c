@@ -11,8 +11,8 @@ while  (n <= 98)
 {
 _putchar(n + '0');
 n++;
+}
 _putchar(',');
 _putchar(' ');
-}
 return (0);
 }
