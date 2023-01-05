@@ -12,7 +12,9 @@ void more_numbers(void)
 	for (p = 0; p <= 14; p++)
 	{
 		for (multi = 'a'; multi <= 'z'; multi++)
+		{
 		_putchar(multi);
 		_putchar("\n");
+		}
 	}
 }
