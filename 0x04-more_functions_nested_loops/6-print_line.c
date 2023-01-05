@@ -4,7 +4,7 @@
  *@n: the number of times to print
  *Return: always 0
  */
-void print_line(int n);
+void print_line(int n)
 {
 	int a;
 
