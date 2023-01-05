@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_line - print a line in terminal
- *
+ *@n: the number of times to print 
  *Return: always 0
  */
 void print_line(int n);
@@ -16,7 +16,7 @@ void print_line(int n);
 	{
 	for (a = 0; a < n; a++)
 	{
-	_putchar(98);	
+	_putchar(98);
 	}
 	_putchar('\n');
 	}
