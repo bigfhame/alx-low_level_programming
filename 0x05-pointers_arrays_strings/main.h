@@ -8,4 +8,5 @@ int _strlen(char *s);
 void _puts(char *str);
 char *_strcpy(char *dest, char *src);
 void print_rev(char *s);
+void rev_string(char *s);
 #endif
