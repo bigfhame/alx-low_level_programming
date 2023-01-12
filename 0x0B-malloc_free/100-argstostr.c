@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- *argstostr - convert the parmter passed to d propram to string 
+ *argstostr - convert the parmter passed to d propram to string
  *@ac: argument count
  *@av: argument vector
  *
