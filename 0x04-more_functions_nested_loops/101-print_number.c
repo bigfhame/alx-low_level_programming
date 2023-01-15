@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- *
- *print-number - prints an integer
+ *print_number - prints an integer
  *@n: the integer to print
  *Return: nothing
  */
