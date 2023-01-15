@@ -1,14 +1,15 @@
-#include "main.h"
-#include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: always 0
- */
-int main(void)
-{
-	char c = 'a';
+#include <unistd.h>
 
-	_putchar(c);
-	return (0);
+/**
+ *
+ * _putchar - my putchar
+ *
+ *
+ */
+
+int _putchar(char c)
+{
+
+return write(STDOUT_FILENO, &c, 1);
+
 }
