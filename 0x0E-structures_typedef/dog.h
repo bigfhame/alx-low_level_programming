@@ -16,6 +16,12 @@ struct dog
 	float age;
 	char *owner;
 };
+/**
+ *struct dog_t - dog attributes
+ *@name: name
+ *@age: age
+ *@owner: ownership of dog
+ */
 struct dog_t
 {
 	char *name;
