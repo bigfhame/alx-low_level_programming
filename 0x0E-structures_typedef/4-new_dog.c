@@ -6,7 +6,7 @@ char *_strcpy(char *dest, char *src);
 
 /**
  * new_dog - ...
- *@name; ..
+ *@name: ..
  *@age: ..
  *@owner: ..
  *Return: ..
